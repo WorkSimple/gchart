@@ -12,7 +12,7 @@ end
 module GChart
   VERSION = "1.0.0"
 
-  URL   = "http://chart.apis.google.com/chart"
+  URL   = "https://chart.googleapis.com/chart"
   SIMPLE_CHARS = ('A'..'Z').to_a + ('a'..'z').to_a + ('0'..'9').to_a
   EXTENDED_CHARS = ('A'..'Z').to_a + ('a'..'z').to_a + ('0'..'9').to_a + %w[- .]
   EXTENDED_PAIRS = EXTENDED_CHARS.collect { |first| EXTENDED_CHARS.collect { |second| first + second } }.flatten
